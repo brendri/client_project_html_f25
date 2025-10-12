@@ -230,6 +230,14 @@ img {
     line-height: 1.5;
 }
 
+.type-information {
+    padding-bottom: 20px;
+    padding-top: 20px;
+    font-size: 18px;
+    border-top: 1px solid #ddd;
+    border-bottom: 1px solid #ddd;
+}
+
 /* Style for content section for index */
 .content {
     background: white;
