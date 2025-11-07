@@ -517,7 +517,7 @@ footer {
 .footer-container {
     display: flex;
     flex-direction: column;
-    gap: 2 rem;
+    gap: 10px;
     margin: 0 auto;
 }
 
