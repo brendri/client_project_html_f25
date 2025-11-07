@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="css/html5reset.css">
     <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"> <!-- From w3schools.com -->
     <title>Networking and Building Connections</title>
 </head>
 
@@ -23,7 +24,7 @@
       <ul>
         <li><a href = "index.html">Home</a></li>
         <li><a href = "resume.html">Resumes</a></li>
-        <li><a href = "network.html"> Networking & Connections</a></li>
+        <li><a href = "network.html" aria-current="page"> Networking & Connections</a></li>
         <li><a href = "port.html">Portfolio</a></li>
       </ul>
     </nav>
@@ -203,9 +204,32 @@
 
     </main>
     <footer>
-        <p>
-            University of Michigan School of Information | <a href="https://umich.instructure.com/courses/137916" aria-label="UMSI Career Development Office, opens a new tab">UMSI Career Development Office </a>
-        </p>
-    </footer>
+    <div class = "footer-container">
+      <div class="footer-img">
+        <img src="images/UMSI_signature_vertical_informal_solidblue.jpg" alt="UMSI Logo">
+      </div>
+      <div class = "footer-year">
+        <p>© <span id="year"></span> Regents of the University of Michigan</p>
+      </div>
+      <div class = "social-media">
+        <a href="https://twitter.com/umsi" target="_blank" aria-label="Twitter/X" class="fa fa-twitter"></a>
+        <a href="https://www.instagram.com/umschoolofinformation" target="_blank" aria-label="Instagram" class="fa fa-instagram"></a>
+        <a href="https://www.facebook.com/uomsi/" target="_blank" aria-label="Facebook" class="fa fa-facebook"></a>
+        <a href="https://www.youtube.com/user/schoolofinformation" target="_blank" aria-label="YouTube" class="fa fa-youtube"></a>
+        <a href="https://www.linkedin.com/school/university-of-michigan---school-of-information/" target="_blank" aria-label="LinkedIn" class="fa fa-linkedin"></a>
+      </div>
+
+      <div class="footer-links">
+        <a href="https://www.si.umich.edu/about-umsi/contact-us" aria-label = "Contact Us, opens a new tab">Contact Us</a> | 
+        <a href="https://umich.instructure.com/courses/137916" aria-label = "UMSI Career Development Office, opens a new tab">UMSI Career Development Office</a>
+      </div>
+    </div>
+  </footer>
+  <script>
+        document.getElementById("year").innerHTML = new Date().getFullYear();
+  </script>
+    
 </body>
 </html>
+
+<!-- ARIA-current taken from UMGPT with the prompt, "How can I make my navigation accessible but also use it as a styling? Which ARIA labels can do that?" UMGPT. (2025). UMGPT ( GPT-4.1 August 25th version) [Large language model].*/

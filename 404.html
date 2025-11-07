@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/html5reset.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"> <!-- From w3schools.com -->
+    <title>404 Not Found</title>
+</head>
+<body>
+  <header>
+    <div class="skip"><a href="#main">Skip to Main Content</a></div>
+    <div class = "container-header">
+      <div class = "logo">
+        <img src="images/UMSI_signature_vertical_informal_solidblue.jpg" alt="UMSI Logo">
+    </div>
+    <div class = "header-text">
+      <h1>404 - Page Not Found</h1>
+    </div>
+    <nav class = "nav-bar">
+      <ul>
+        <li><a href = "index.html">Home</a></li>
+        <li><a href = "resume.html">Resumes</a></li>
+        <li><a href = "network.html"> Networking & Connections</a></li>
+        <li><a href = "port.html">Portfolio</a></li>
+      </ul>
+    </nav>
+    </div>
+  </header>
+  <main class = "error-container" id= "main">
+    <section>
+      <div class = "error-intro">
+        <img src="images/MUMSI.png" alt="MUMSI Squirrel holding up a peace sign" class="image_error">
+        <h2>Oops!</h2>
+        <h3>We can't find the page you're looking for.</h3>
+        <p>
+          Please check the URL for any errors or return to the <a href="index.html">Home page</a>.
+        </p>
+      </div>
+    </section>
+  </main>
+   <footer>
+    <div class = "footer-container">
+      <div class="footer-img">
+        <img src="images/UMSI_signature_vertical_informal_solidblue.jpg" alt="UMSI Logo">
+      </div>
+      <div class = "footer-year">
+        <p>© <span id="year"></span> Regents of the University of Michigan</p>
+      </div>
+      <div class = "social-media">
+        <a href="https://twitter.com/umsi" target="_blank" aria-label="Twitter/X" class="fa fa-twitter"></a>
+        <a href="https://www.instagram.com/umschoolofinformation" target="_blank" aria-label="Instagram" class="fa fa-instagram"></a>
+        <a href="https://www.facebook.com/uomsi/" target="_blank" aria-label="Facebook" class="fa fa-facebook"></a>
+        <a href="https://www.youtube.com/user/schoolofinformation" target="_blank" aria-label="YouTube" class="fa fa-youtube"></a>
+        <a href="https://www.linkedin.com/school/university-of-michigan---school-of-information/" target="_blank" aria-label="LinkedIn" class="fa fa-linkedin"></a>
+      </div>
+
+      <div class="footer-links">
+        <a href="https://www.si.umich.edu/about-umsi/contact-us" aria-label = "Contact Us, opens a new tab">Contact Us</a> | 
+        <a href="https://umich.instructure.com/courses/137916" aria-label = "UMSI Career Development Office, opens a new tab">UMSI Career Development Office</a>
+      </div>
+    </div>
+  </footer>
+  <script>
+        document.getElementById("year").innerHTML = new Date().getFullYear();
+  </script>
+
+</body>
+</html>
+
+
