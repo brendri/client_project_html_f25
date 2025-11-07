@@ -16,7 +16,12 @@ a:hover {
     left: -10000px;
     top: auto;
     width: 1px;
+    color: black;
+    font-size: 18px;
     height: 1px;
+    font-weight: bold;
+    padding: 10px;
+    background: #FFF4C7;
     overflow: hidden;
 }
 
@@ -24,10 +29,7 @@ a:hover {
     position: static;
     width: auto;
     height: auto;
-    background-color: #FFCB05;
-    color: #00274C;
     text-decoration: none;
-    font-weight: bold;
 }
 
 /* Style for all elements when they are in focus */
